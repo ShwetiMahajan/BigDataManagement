@@ -1,0 +1,10 @@
+The KNN.java file has the implementation of KNN query in hadoop.
+The file used contains id, x and y coordinates as records. 
+The user inputs:
+1. Input File (here we are using one with 3 columns id, x, y. Remember to upload the file to HDFS and give that path.
+2. Output file (file the user wants the output to be stored at). This file is on HDFS.
+3. x-coordinate of query point.
+4. y-coordinate of query point.
+5. K i.e the total number of nearest neighbors the user wants. 
+
+The file KNN.pig contains the pig latin script you can run on grunt mode for pig. 
