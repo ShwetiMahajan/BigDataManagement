@@ -1,0 +1,8 @@
+The given program works on the babynames datasets for different 
+countries stored using the following schema :
+Country/State, Gender(F or M), Year, Name, Count
+The program then finds the count of a name in a particular 
+year across all the regions and genders. Stores them in 
+descending orer in an ArrayList, and outputs the top k. 
+We could use a TreeMap instead of an arraylist to make 
+the reduce function more optimal.
